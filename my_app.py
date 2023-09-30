@@ -6,6 +6,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
 st.markdown('## `AutoGluon` TabularPredictor')
 with st.spinner('Preparing...'):
     data_url = 'https://raw.githubusercontent.com/mli/ag-docs/main/knot_theory/'
